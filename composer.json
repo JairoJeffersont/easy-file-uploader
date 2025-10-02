@@ -1,0 +1,19 @@
+{
+    "name": "jairojeffsantos/easy-file-uploader",
+    "description": "PHP Library for uploading",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Jairojeffsantos\\EasyFileUploader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jairo Santos",
+            "email": "jairojeffersont@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
