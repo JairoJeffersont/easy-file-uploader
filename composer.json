@@ -1,6 +1,6 @@
 {
     "name": "jairojeffsantos/easy-file-uploader",
-    "description": "PHP Library for uploading",
+    "description": "Simple and secure PHP file uploader – validate MIME types, file size, and manage uploads/deletions with ease.",
     "type": "library",
     "license": "mit",
     "autoload": {
