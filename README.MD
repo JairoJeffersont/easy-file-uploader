@@ -39,7 +39,7 @@ $file = $_FILES['arquivo'];
 $allowedTypes = ['image/jpeg', 'image/png'];
 $maxSize = 5; // tamanho máximo em MB
 
-$result = FileUploader::uploadFile(__DIR__ . '/uploads', $file, $allowedTypes, $maxSize);
+$result = EasyFileUploader::uploadFile(__DIR__ . '/uploads', $file, $allowedTypes, $maxSize);
 
 if ($result['status'] === 'success') {
     echo "Arquivo enviado com sucesso: " . $result['file_path'];
