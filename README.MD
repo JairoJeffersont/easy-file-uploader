@@ -21,7 +21,7 @@ composer require jairojeffersont/easy-file-uploader
 ## Estrutura de Pastas
 
 ```
-easy-upload/
+easy-file-upload/
 ├─ src/
 │  └─ EasyFileUploader.php
 ├─ composer.json
