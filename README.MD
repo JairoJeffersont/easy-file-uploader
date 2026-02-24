@@ -23,7 +23,7 @@ composer require jairojeffersont/easy-file-uploader
 ```
 easy-upload/
 ├─ src/
-│  └─ FileUploader.php
+│  └─ EasyFileUploader.php
 ├─ composer.json
 └─ README.md
 ```
@@ -33,7 +33,7 @@ easy-upload/
 ### Upload de Arquivo
 
 ```php
-use JairoJeffersont\FileUploader;
+use JairoJeffersont\EasyFileUploader;
 
 $file = $_FILES['arquivo'];
 $allowedTypes = ['image/jpeg', 'image/png'];
@@ -51,9 +51,9 @@ if ($result['status'] === 'success') {
 ### Exclusão de Arquivo
 
 ```php
-use JairoJeffersont\FileUploader;
+use JairoJeffersont\EasyFileUploader;
 
-$result = FileUploader::deleteFile(__DIR__ . '/uploads/file_abc123.png');
+$result = EasyFileUploader::deleteFile(__DIR__ . '/uploads/file_abc123.png');
 
 if ($result['status'] === 'success') {
     echo "Arquivo excluído com sucesso!";
