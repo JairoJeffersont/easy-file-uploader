@@ -61,7 +61,7 @@ class EasyFileUploader {
         // Gera nome de arquivo seguro
         $fileName = $uniqueFlag
             ? uniqid('file_') . '.' . $fileExtension
-            : preg_replace('/[^a-zA-Z0-9_\-\.]/', '_', $file['name']);
+            : $file['name'];
         $destination = $directory . DIRECTORY_SEPARATOR . $fileName;
 
         // Verifica se o arquivo já existe
